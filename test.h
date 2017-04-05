@@ -57,7 +57,7 @@ void test2(){
     v1.n =v2.n = 2;
     v1.size=sizeof(float);
     v2.size=sizeof(float);
-    float arr1[2]={.1, 0.1};
+    float arr1[2]={2.1, 0.1};
     float arr2[2]={10.1, 8.2};
     v1.data = malloc(v1.size * v1.n);
     v2.data = malloc(v2.size * v2.n);
